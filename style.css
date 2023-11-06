@@ -209,3 +209,14 @@ section h1 {
     background-color: #111;
     color: #fff;
 }
+
+.col {
+    text-align: center;
+    border-left: solid #111;
+   text-align:start;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
