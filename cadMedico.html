@@ -15,10 +15,10 @@
             <img src="img/medico.svg" alt="">
         </div>
         <div class="form">
-            <form action="#">
+            <form onsubmit="cadUser()">
                 <div class="form-header">
                     <div class="title">
-                        <h1>Cadastre-se</h1>
+                        <h1>Acessar o Sistema</h1>
                     </div>
                     <div class="login-button">
                         <button><a href="index.html">Voltar</a></button>
@@ -27,36 +27,25 @@
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
+                        <label for="firstname">Nome</label>
                         <input id="name" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="job" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        <label for="lastname">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua Senha" required>
                     </div>
                     
                 </div>
 
                 <div class="continue-button">
-                    <button onclick="abrirAlerta()"><a>Cadastrar</a> </button>
+                    <button type="submit"><a>Acessar</a> </button>
                 </div>
             </form>
         </div>
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        function abrirAlerta(){
-    Swal.fire({
-        title: "Cadastrado com sucesso",
-        text: "Usuario cadastrado com sucesso",
-        icon: "success"
-      });
-}
-
-    </script>
+    <script src="/JavaScript/cadMedico.js"></script>
 </body>
 
 </html>
