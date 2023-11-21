@@ -16,6 +16,7 @@
     width: 100%;
     max-width: 100%;
     height: 100vh;
+    color:#0f608f
 }
 
 header {
@@ -50,6 +51,7 @@ header {
     color: #111;
     font-weight: 700;
     transition: 0.3s;
+   
 }
 
 .cabecalho-link a:hover {
@@ -137,6 +139,20 @@ section h1 {
 .carro p{
     text-align: center;
     font-weight: bold;
+}
+
+.carrosel {
+    background-color: #1797a5
+}
+
+
+.carrosel p{
+    text-align: center;
+    font-weight: bold;
+    gap: 2rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    background-color: #1797a5;
 }
 
 .cards img:hover {
@@ -290,7 +306,7 @@ section h1 {
     padding: 10px;
     border: 0;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer; 
     margin-top: 14px;
   }
   
